@@ -38,7 +38,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, [])
 
   const signUp = async (email: string, password: string, username: string) => {
-    const API_BASE = import.meta.env.VITE_API_BASE || 'https://echomark-server-production.up.railway.app'
+    const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:8000'
 
     // First check if username is available
     try {
@@ -93,7 +93,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }
 
   const signIn = async (username: string, password: string) => {
-    const API_BASE = import.meta.env.VITE_API_BASE || 'https://echomark-server-production.up.railway.app'
+    const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:8000'
 
     try {
       const response = await fetch(`${API_BASE}/api/auth/email-by-username/${encodeURIComponent(username)}`)
