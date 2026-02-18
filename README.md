@@ -13,10 +13,6 @@ EchoMark helps you quickly mark interesting moments while listening to podcasts,
 - **Flomo-style UI** - Mark library as homepage, focusing on accumulated knowledge
 - **PWA Support** - Install as a native-like app on mobile devices
 
-## Screenshots
-
-<!-- Add your screenshots here -->
-
 ## Tech Stack
 
 ### Frontend
@@ -159,14 +155,6 @@ EchoMark supports voice marking through iOS Shortcuts:
 3. Use "Hey Siri, mark" to quickly mark moments
 4. Use "Hey Siri, mark thought" to mark with voice input
 
-## Roadmap
-
-- [ ] Playback speed control
-- [ ] Support more podcast platforms (Apple Podcasts, Spotify)
-- [ ] Mark sharing
-- [ ] AI-powered summaries
-- [ ] Multi-language support
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
@@ -180,4 +168,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Supabase](https://supabase.com) - Backend as a Service
 - [Alibaba Cloud Tingwu](https://tingwu.aliyun.com) - AI Transcription
 - [Vercel](https://vercel.com) & [Railway](https://railway.app) - Hosting platforms
-- [Flomo](https://flomoapp.com) - UI/UX inspiration
